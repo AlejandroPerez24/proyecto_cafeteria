@@ -32,7 +32,7 @@
     </header>
 
     <div class="container">
-        <div class="grid-2">
+        <div class="grid-2" style="margin-bottom: 50px;">
             <div class="form-container">
                 <div class="section-title" style="text-align:left; margin-bottom:20px;">
                     <h2>Envíanos un Mensaje</h2>
@@ -55,17 +55,36 @@
             </div>
 
             <div>
-                <h3>Información de Contacto</h3>
-                <p style="margin-top:15px;"><i class="fa-solid fa-envelope"></i> <strong>Email:</strong> contacto@cafedonalejandro.pe</p>
-                <p style="margin-top:10px;"><i class="fa-brands fa-whatsapp"></i> <strong>WhatsApp:</strong> +51 912 345 678</p>
-                <p style="margin-top:10px;"><i class="fa-solid fa-headset"></i> <strong>Central:</strong> (01) 710-8000</p>
+                <h3>Canales Directos</h3>
+                <p style="margin-top:15px;"><i class="fa-solid fa-phone" style="color:#D4AC0D;"></i> <strong>Nro. Telefónico:</strong> (01) 710-8000</p>
+                <p style="margin-top:10px;"><i class="fa-brands fa-whatsapp" style="color:#D4AC0D;"></i> <strong>WhatsApp:</strong> +51 912 345 678</p>
+                <p style="margin-top:10px;"><i class="fa-solid fa-envelope" style="color:#D4AC0D;"></i> <strong>Email:</strong> contacto@cafedonalejandro.pe</p>
             </div>
         </div>
+
+        <!-- Libro de Reclamaciones -->
+        <div class="section-title">
+            <span>Atención al Cliente</span>
+            <h2>Libro de Reclamaciones Virtual</h2>
+        </div>
+        <div class="card" style="max-width: 600px; margin: 0 auto; padding: 30px;">
+            <p style="font-size: 0.85rem; margin-bottom: 15px;">Conforme a la legislación peruana Indecopi, puedes registrar un reclamo o queja aquí.</p>
+            <form action="#" method="post">
+                <div class="form-group">
+                    <label for="dni">DNI / CE</label>
+                    <input type="text" id="dni" required placeholder="Número de documento">
+                </div>
+                <div class="form-group">
+                    <label for="detalle">Detalle de la Reclamación</label>
+                    <textarea id="detalle" rows="3" required placeholder="Describe tu reclamo..."></textarea>
+                </div>
+                <button type="submit" class="btn-primary" style="width: 100%;">Registrar Hoja de Reclamación</button>
+            </form>
+        </div>
     </div>
-<!-- FOOTER ESTRUCTURADO EN COLUMNAS -->
+
     <footer>
         <div class="footer-grid">
-            <!-- Columna 1: Brand & Bio -->
             <div class="footer-col">
                 <div class="logo-container" style="margin-bottom: 15px;">
                     <div class="logo-icon"><i class="fa-solid fa-mug-hot"></i></div>
@@ -77,8 +96,6 @@
                     Cafetería de especialidad peruana comprometida con la sostenibilidad, la trazabilidad del grano y la excelencia en cada tostado.
                 </p>
             </div>
-
-            <!-- Columna 2: Navegación Rápida -->
             <div class="footer-col">
                 <h4>Explorar</h4>
                 <ul>
@@ -90,8 +107,6 @@
                     <li><a href="contacto.html">Contacto</a></li>
                 </ul>
             </div>
-
-            <!-- Columna 3: Sedes Principales -->
             <div class="footer-col">
                 <h4>Sedes Lima</h4>
                 <ul>
@@ -100,8 +115,6 @@
                     <li><strong style="color: #ffffff;">Barranco:</strong> Av. Pedro de Osma 215</li>
                 </ul>
             </div>
-
-            <!-- Columna 4: Certificaciones y Garantía -->
             <div class="footer-col">
                 <h4>Calidad & Certificados</h4>
                 <p style="font-size: 0.85rem; margin-bottom: 10px;">Miembros de la Asociación Peruana de Cafés Especiales (APECAFE).</p>
@@ -110,8 +123,6 @@
                 </div>
             </div>
         </div>
-
-        <!-- Bottom Legal -->
         <div class="footer-bottom">
             <p>&copy; 2026 Café Don Alejandro. Todos los derechos reservados. Lima, Perú. | Proyecto Académico Módulo 1.</p>
         </div>
